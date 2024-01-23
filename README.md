@@ -11,7 +11,7 @@ Components:
 * **kube-state-metrics** - generates metrics about the state of the Flux objects
 * **Prometheus Operator** - manages Prometheus clusters atop Kubernetes
 * **Prometheus** - collects and stores metrics from the Flux controllers and kube-state-metrics
-* **Promtail** - collects the logs from the Flux controllers
+* **Fluentbit** - collects the logs from the Flux controllers
 * **Loki** - stores the logs collected by Promtail
 * **Grafana** dashboards - displays the Flux control plane resource usage, reconciliation stats and logs
 
@@ -77,7 +77,7 @@ kube-prometheus-stack-kube-state-metrics-5dcf4c4697-jvlvh   1/1
 kube-prometheus-stack-operator-75f9fdcbf6-98zmh             1/1
 kube-prometheus-stack-prometheus-node-exporter-j4vhb        1/1
 loki-stack-0                                                1/1
-loki-stack-promtail-dcg64                                   1/1
+loki-stack-fluent-bit-loki-6qtnn                            1/1
 prometheus-kube-prometheus-stack-prometheus-0               2/2
 ```
 

@@ -18,6 +18,8 @@ spec:
   # https://github.com/grafana/loki/blob/main/production/helm/loki/values.yaml
   values:
     promtail:
+      enabled: false
+    fluent-bit:
       enabled: true
     loki:
       enabled: true

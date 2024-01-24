@@ -7,13 +7,6 @@ labels:
   - pairs:
       toolkit.fluxcd.io/tenant: sre-team
 patches:
-  - path: sops-patch.yaml
-    target:
-      kind: Kustomization
-  - path: sa-patch.yaml
-    target:
-      kind: ServiceAccount
-      name: kustomize-controller
   - patch: |
       - op: add
         path: /spec/template/spec/containers/0/args/-

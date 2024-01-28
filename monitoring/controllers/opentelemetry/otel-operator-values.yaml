@@ -1,0 +1,3 @@
+admissionWebhooks.certManager.enabled: false
+admissionWebhooks.certManager.autoGenerateCert.enabled: true
+manager.featureGates: operator.autoinstrumentation.go

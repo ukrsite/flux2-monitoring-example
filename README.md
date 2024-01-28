@@ -7,7 +7,7 @@ and
 to monitor Flux.
 
 Components:
-
+* **OpenTelemetry** makes robust, portable telemetry a built-in feature of cloud-native software
 * **kube-state-metrics** - generates metrics about the state of the Flux objects
 * **Prometheus Operator** - manages Prometheus clusters atop Kubernetes
 * **Prometheus** - collects and stores metrics from the Flux controllers and kube-state-metrics
